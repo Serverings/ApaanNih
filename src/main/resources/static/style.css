@@ -9,7 +9,6 @@ body {
     color: #444;
 }
 
-/* CONTAINER */
 .container {
     text-align: center;
     opacity: 1;
@@ -17,7 +16,6 @@ body {
     transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
-/* CARD */
 .card {
     background: #fffaf0;
     padding: 40px;
@@ -25,7 +23,6 @@ body {
     box-shadow: 0 10px 30px rgba(255, 182, 193, 0.3);
 }
 
-/* IMAGE */
 .main-img {
     width: 200px;
     margin-bottom: 20px;
@@ -33,13 +30,11 @@ body {
     box-shadow: 0 5px 15px rgba(255, 182, 193, 0.4);
 }
 
-/* BUTTON GROUP */
 .btn-group {
     margin-top: 20px;
     position: relative;
 }
 
-/* BUTTON */
 button {
     padding: 10px 20px;
     margin: 10px;
@@ -50,7 +45,6 @@ button {
     transition: 0.3s;
 }
 
-/* YES BUTTON */
 #btn-yes {
     background: #ff9ecb;
     color: white;
@@ -61,14 +55,12 @@ button {
     transform: scale(1.1);
 }
 
-/* NO BUTTON */
 #btn-no {
     background: #ffe89a;
     color: #444;
     position: absolute;
 }
 
-/* ==== TRANSISI ==== */
 .container.hide {
     opacity: 0;
     transform: scale(0.95);
@@ -80,7 +72,6 @@ button {
     transform: scale(1);
 }
 
-/* ==== LOVE RAIN ==== */
 #hearts-container {
     position: fixed;
     top: 0;
@@ -98,7 +89,6 @@ button {
     animation: fall linear forwards;
 }
 
-/* ANIMASI JATUH */
 @keyframes fall {
     0% {
         transform: translateY(-10vh) scale(1);
